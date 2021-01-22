@@ -1,0 +1,144 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/lucaspinazzola/Projects/Body-Tracking-ARKit/body-tracking-arkit
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51734
+Successfully changed project path to: /Users/lucaspinazzola/Projects/Body-Tracking-ARKit/body-tracking-arkit
+/Users/lucaspinazzola/Projects/Body-Tracking-ARKit/body-tracking-arkit
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 46.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/lucaspinazzola/Projects/Body-Tracking-ARKit/body-tracking-arkit/Assets
+GfxDevice: creating device client; threaded=0
+2021-01-08 19:19:32.894 Unity[6614:112612] Color LCD preferred device: NVIDIA GeForce GT 750M (high power)
+2021-01-08 19:19:32.894 Unity[6614:112612] Metal devices available: 2
+2021-01-08 19:19:32.894 Unity[6614:112612] 0: NVIDIA GeForce GT 750M (high power)
+2021-01-08 19:19:32.894 Unity[6614:112612] 1: Intel Iris Pro Graphics (low power)
+2021-01-08 19:19:32.895 Unity[6614:112612] Using device NVIDIA GeForce GT 750M (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 750M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56614
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001988 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 37.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.586 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008267 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 35.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.340 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1706 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 136.1 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2144.
+Total: 2.732810 ms (FindLiveObjects: 0.276949 ms CreateObjectMapping: 0.093680 ms MarkObjects: 2.290461 ms  DeleteObjects: 0.070624 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Materials/PlacedCubeMaterial.mat
+  artifactKey: Guid(9b5d75722d424804fa0c0efaa228c3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PlacedCubeMaterial.mat using Guid(9b5d75722d424804fa0c0efaa228c3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5af35d47cf96488a4b82798d18441b') in 1.949282 seconds
+  Import took 1.954683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Scripts/HumanBodyTracking.cs
+  artifactKey: Guid(a70310605953942b396590064b0a3830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HumanBodyTracking.cs using Guid(a70310605953942b396590064b0a3830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6896d0b8aeb97a52b6a87185af9f9b5') in 3.546633 seconds
+  Import took 3.549852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Scenes/HumanBodyTracking3D.unity
+  artifactKey: Guid(9fc1f5ed98d414310a8b9e659c295d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HumanBodyTracking3D.unity using Guid(9fc1f5ed98d414310a8b9e659c295d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af83b68829306aa87d58d196b9c600f1') in 0.001256 seconds
+  Import took 0.003879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Prefabs/AR Placed Sphere.prefab
+  artifactKey: Guid(2e80f2e009b5347149ebaae6d96ddfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AR Placed Sphere.prefab using Guid(2e80f2e009b5347149ebaae6d96ddfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35621fb4ebb3e6e968b541594717b58') in 0.427588 seconds
+  Import took 0.430753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Prefabs/AR Placed Cube.prefab
+  artifactKey: Guid(b34b6c8f1206a6844b983e23b9da0441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AR Placed Cube.prefab using Guid(b34b6c8f1206a6844b983e23b9da0441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48c24af09161f446d4256ad24c299ff') in 0.009614 seconds
+  Import took 0.012935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Prefabs/LineRenderer_3D.prefab
+  artifactKey: Guid(e939ca1b5068d4de5a29f1e2d7a1c2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LineRenderer_3D.prefab using Guid(e939ca1b5068d4de5a29f1e2d7a1c2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8238f99966f29a57dcba0b47635bcb') in 0.003911 seconds
+  Import took 0.006693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Scripts/LineRendererExtensions.cs
+  artifactKey: Guid(c2f83749485d24bda8f5fb32f499d461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LineRendererExtensions.cs using Guid(c2f83749485d24bda8f5fb32f499d461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3bd0f2c3da9428b6f40b60b55c518e') in 0.001480 seconds
+  Import took 0.004141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(5e37507c2b1afdc449ef525581e03978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(5e37507c2b1afdc449ef525581e03978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7436a20862ae61f8d34d83b54547cb17') in 0.001136 seconds
+  Import took 0.003720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.556144 seconds.
+  path: Assets/XR/Loaders/AR Kit Loader.asset
+  artifactKey: Guid(ef63215aa76254b8f8642032ed918381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/AR Kit Loader.asset using Guid(ef63215aa76254b8f8642032ed918381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a702fc2e47fcb79260058f392000b6af') in 0.179222 seconds
+  Import took 0.183142 seconds .
+
